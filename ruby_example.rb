@@ -105,4 +105,4 @@ def sample
   puts "https://#{url}"
 end
 
-sample()
+# sample()
