@@ -24,5 +24,13 @@ Example code to use the Ruby Embed SSO API in various languages
  LOOKER_EMBED_SECRET=${LOOKER_EMBED_SECRET} FLEXE_COMPANY_ID=${PRODUCTION_COMPANY_ID} ruby flexe_example.rb
  ```  
  
+ or 
+ 
+ ```bash
+ export LOOKER_EMBED_SECRET=${LOOKER_EMBED_SECRET}
+ export FLEXE_COMPANY_ID=${PRODUCTION_COMPANY_ID}
+ ruby flexe_example.rb
+ ```
+ 
  If url renders a dashboard specific to that company id then we are all set
 

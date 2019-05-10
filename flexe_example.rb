@@ -18,7 +18,7 @@ def example_1
       permissions:        ['access_data', 'see_looks', 'see_user_dashboards'],
       models:             ['flexe_data'],
       user_attributes:    {"company_id" => company_id},
-      # access_filters:     {:fake_model => {:id => 1}},
+      access_filters:     {},
       session_length:     fifteen_minutes,
       embed_url:          "/embed/dashboards/9",
       force_logout_login: false
